@@ -1,2 +1,5 @@
+fail_on_violations: true
 phpcs:
   enabled: true
+  standards: ["Drupal", "DrupalSecure", "Security"]
+  extensions: ["php", "inc", "install", "module"]
